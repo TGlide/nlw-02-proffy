@@ -1,0 +1,11 @@
+import React from "react";
+import PageHeader from "../../components/PageHeader";
+import "./styles.scss";
+
+export default function TeacherForm() {
+  return (
+    <div id="page-teacher-form">
+      <PageHeader title="Form" />
+    </div>
+  );
+}
